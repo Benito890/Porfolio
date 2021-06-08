@@ -1,0 +1,23 @@
+.header-container {
+    background-color: #0F1113;
+    height:80px;
+    color:#CBD5E0;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.ul-container{
+list-style-type: none;
+display: flex;
+height: 100%;
+align-items: center;
+justify-content: center;
+margin: 0;
+width:100%;
+font-size: 18px;
+}
+
+.ul-container li {
+    margin: 20px;
+}
