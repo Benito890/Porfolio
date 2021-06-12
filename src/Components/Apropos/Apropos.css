@@ -1,7 +1,7 @@
 .propos-container {
-    display:flex;
-    width:100%;
-    height:400px;
+    display: flex;
+    width: 100%;
+    height: 400px;
     background-color: #1b1e21;
 }
 
@@ -9,13 +9,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:60%;
-    color:white;
+    width: 60%;
+    color: white;
+    padding: 30px;
 }
 
-.text-container h1, p {
-    padding:30px 60px;
-    margin:0;
+.text-container h1,
+p {
+    padding: 30px 60px;
+    margin: 0;
 }
 
 .text-container a {
@@ -23,40 +25,175 @@
 }
 
 .photo-container {
-width:40%;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-    width:250px;
-    height:200px;
-    border-radius: 150px;
+.logo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
 }
 
 .button {
-    height:40px;
-    width:200px;
+    height: 40px;
+    width: 200px;
     text-align: center;
     font-weight: 600;
     position: center;
     cursor: pointer;
     margin: 40px auto;
     border-radius: 15px;
-  }
+}
+
+#photo {
+    /* margin: auto; */
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
 
 .button-2 {
     color: #fff;
     border: 3px solid #5A67D8;
+    background-image: -webkit-linear-gradient(30deg, #5A67D8 50%, transparent 50%);
     background-image: linear-gradient(30deg, #5A67D8 50%, transparent 50%);
     background-size: 500px;
-    background-position: 0%;
-    -webkit-transition:400ms ease-in-out;
-    transition:400ms ease-in-out;
-  }
+    -webkit-transition: 400ms ease-in-out;
+    transition: 400ms ease-in-out;
+}
 
-  .button-2:hover {
+.button-2:hover {
     background-position: 100%;
     color: #7A84F3;
-  }
+    background-color: transparent;
+}
+
+/* Images animées */
+
+.croix {
+    position: relative;
+    animation: bounce-1 1s infinite;
+}
+
+.circle {
+    position: relative;
+    animation: fadein 1.3s ease-in alternate infinite;
+}
+
+@keyframes bounce-1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        transform: opacity(0.5);
+    }
+    50% {
+        transform: opacity(0.75);
+    }
+    100% {
+        transform: opacity(1);
+    }
+}
+
+@keyframes fadein {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+}
+
+#croix-1 {
+    width: 20px;
+    height: 20px;
+    left: -19rem;
+}
+
+#croix-2 {
+    width: 30px;
+    height: 30px;
+    left: 1rem;
+    top: 2rem;
+}
+
+#croix-3 {
+    width: 30px;
+    height: 30px;
+    left: -5rem;
+    top: -7rem;
+}
+
+#croix-4 {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -13rem;
+    top: 10rem;
+    animation: rotate 4s linear infinite;
+}
+
+#circle-1 {
+    width: 40px;
+    height: 40px;
+    left: -23rem;
+    top: -9rem;
+
+}
+#circle-2 {
+    width: 30px;
+    height: 30px;
+    left: -19rem;
+    top: 6.5rem;
+}
+
+#double-circle-1 {
+    width: 50px;
+    height: 50px;
+    left: -30rem;
+    top: 5rem;
+}
+
+#double-circle-2 {
+    width: 30px;
+    height: 30px;
+    left: -19rem;
+    top: 10rem;
+}
+
+#cube-1 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -4rem;
+    left: -4.5rem;
+    animation: rotate 4s ease-in-out infinite;
+
+}
+
+#cube-2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: -6rem;
+    left: -27.5rem;
+    animation: rotate 4s linear infinite;
+
+}
+
