@@ -16,7 +16,7 @@ function Apropos () {
             <a href={CV} download='CV-Benoit-DACOSTA'><button className="button button-2">Télécharger mon CV</button></a>
          </div>
          <div className="photo-container">
-             <div className="logo-container">
+             <div className="picture-container">
             <img src={Photo} alt="my-photo" id="photo"/>
             <img src={Croix} alt='croix' className="croix" id='croix-1'/>
             <img src={Croix} alt='croix' className="croix" id='croix-2'/>
