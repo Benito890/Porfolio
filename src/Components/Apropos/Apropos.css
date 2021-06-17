@@ -194,6 +194,9 @@ p {
     top: -6rem;
     left: -27.5rem;
     animation: rotate 4s linear infinite;
+}
 
+#section-1 {
+    color: white;
 }
 

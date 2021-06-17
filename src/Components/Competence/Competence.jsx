@@ -15,7 +15,7 @@ import vscode from '../../assets/logos-autres/logo-vscode.png';
 
 export default function Competence () {
   return (
-        <div className="big-container">
+        <div id="section-2" className="big-container">
             <div className="moyen-container">
                 <div className="bloc" id="bloc-1">
                     <h2>Front-end</h2>

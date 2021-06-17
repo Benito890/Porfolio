@@ -1,12 +1,12 @@
-// import React from 'react';
-// import './ProjetCard.css';
+import React from 'react';
+import './ProjetCard.css';
 
-// function ProjetCard () {
-//   return (
-//         <div id='okk'>
-//         Hello
-//         </div>
-//   );
-// }
+function ProjetCard () {
+  return (
+        <div>
+         <h1>Hello</h1>
+        </div>
+  );
+}
 
-// export default ProjetCard;
+export default ProjetCard;

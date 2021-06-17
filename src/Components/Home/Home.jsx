@@ -1,11 +1,13 @@
 import React from 'react';
 import './Home.css';
 import Typical from 'react-typical';
+import logobenito from '../../assets/logoBenito.png';
 
 function Home () {
   return (
         <div className="background-image">
             <div className="container">
+                <img id="logobenito" src={logobenito}></img>
                 <h1 id="h1-home">BENOIT DA COSTA</h1>
                 <h2 id="h2-home">Développeur
             <Typical
