@@ -16,6 +16,9 @@ import vscode from '../../assets/logos-autres/logo-vscode.png';
 export default function Competence () {
   return (
         <div id="section-2" className="big-container">
+            <div id="container-section2">
+                <h1 id="h1-section2">Compétences Techniques</h1>
+            </div>
             <div className="moyen-container">
                 <div className="bloc" id="bloc-1">
                     <h2>Front-end</h2>

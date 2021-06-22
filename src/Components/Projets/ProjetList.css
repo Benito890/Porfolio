@@ -1,0 +1,15 @@
+#projet-container {
+    background-color:#111315;
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#title-h2 {
+width:100%;
+text-align: center;
+margin:20px 0px 0px 0px;
+font-size: 2em;
+}

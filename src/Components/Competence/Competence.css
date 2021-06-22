@@ -1,24 +1,24 @@
 .big-container {
-    padding-top:80px;
-    height:500px;
+    padding:40px 0px 80px 0px;
     width:100%;
     background-color:#111214;
-    display: flex;
-    justify-content: space-around;
 }
 
 .moyen-container {
-    width:70%;
+    width:100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .bloc {
-    background-color: #4a4d67;
+    background-color: #33363ab5;
+    /* background-color: transparent; */
+    border: solid 1px grey;
     border-radius: 10px;
     height:400px;
     display: flex;
     flex-wrap: wrap;
+    margin:0px 25px
 }
 
 .logo-container {
@@ -131,4 +131,11 @@ span {
 #vscode {
     height: 41px;
     width: 41px;
+}
+
+#h1-section2 {
+    color: white;
+    margin-bottom: 40px;
+    width:100%;
+    text-align: center;
 }

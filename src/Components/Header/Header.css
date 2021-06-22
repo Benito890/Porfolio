@@ -1,7 +1,7 @@
 #navbar {
     display: flex;
     width:100%;
-    background-color:#0F1113;
+    background-color:#4a4d67;
     position: fixed;
     z-index: 33;
 }
@@ -20,7 +20,6 @@ align-items: center;
 justify-content: center;
 height: 80px;
 width:100%;
-background-color: #0F1113;
 color:#CBD5E0;
 list-style-type: none;
 margin: 0;
