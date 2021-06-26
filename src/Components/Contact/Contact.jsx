@@ -22,7 +22,7 @@ function Contacte () {
 
   return (
     <div id="section-4" className="background">
-      <h2>N'hésitez pas à me contacter</h2>
+      <h1>N'hésitez pas à me contacter</h1>
       <div className="container-contact">
         <img src={logo} alt='logo-email'></img>
         <form className='container-form' onSubmit={sendEmail}>

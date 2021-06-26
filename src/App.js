@@ -6,10 +6,11 @@ import Competence from './Components/Competence/Competence';
 import ProjetList from './Components/Projets/ProjetList';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import './App.css';
 
 function App () {
   return (
-    <div>
+    <div id='app-div'>
       <Header/>
       <Home/>
       <Apropos/>

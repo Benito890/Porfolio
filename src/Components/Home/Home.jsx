@@ -23,7 +23,7 @@ function Home () {
                         ]}
                     />
                 </h2>
-                <a className="button button-2">Découvrir les projets</a>
+                <a className="button button-2" href="#title-h2">Découvrir les projets</a>
             </div>
         </div>
   );

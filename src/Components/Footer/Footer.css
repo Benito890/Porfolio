@@ -17,6 +17,10 @@
     margin:0 20px;
 }
 
+.logo:hover {
+    opacity: 0.5;
+}
+
 #p-footer {
     color:white;
     padding: 0;

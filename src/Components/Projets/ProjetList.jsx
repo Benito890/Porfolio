@@ -2,15 +2,20 @@ import React from 'react';
 import ProjetCard from './ProjetCard';
 import './ProjetList.css';
 import dataProjet from './data';
-// const dataProjet = require('./data.js');
 
 function ProjetList () {
-  console.log(dataProjet[0].title);
   return (
         <div id="projet-container">
-          <h2 id="title-h2">Voici mes projets</h2>
+          <h1 id="title-h2">Voici mes projets</h1>
          <ProjetCard
-         titlle={dataProjet[0].title}
+         title={dataProjet[0].title}
+         picture1={dataProjet[0].picture1}
+         picture2={dataProjet[0].picture2}
+         website={dataProjet[0].websiteLink}
+         github={dataProjet[0].githubLink}
+         description={dataProjet[0].description}
+         slogan={dataProjet[0].slogan}
+         technos={dataProjet[0].technos}
            />
         </div>
   );

@@ -62,6 +62,20 @@
   }
 
   #logobenito {
-    width: 250px;
-    height: 200px;
+    width: 19%;
+    height: 19%;
+}
+
+  @media screen and (max-width:992px) {
+    #h1-home {
+      font-size: 28px;
+  }
+  }
+
+  @media screen and (max-width:700px) {
+    #logobenito {
+      height: 120px;
+      width:130px;
+      
+    }
   }
