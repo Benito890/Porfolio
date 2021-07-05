@@ -10,13 +10,13 @@ import Circle2 from '../../assets/Circle2.svg';
 function Apropos () {
   return (
         <div className="propos-container">
-          <div className="text-container">
-            <h1>À propos</h1>
-            <p>Après 2 ans en tant que responsable commercial, j'ai décidé de prendre un virage à 360 et d'entreprendre enfin ma carrière de développeur web.<br></br><br></br>Ma rigueur, mon pragmatisme et mon extrême détermination seront de réels atout pour votre équipe.</p>
+          <h1 id="section-1">À propos</h1>
+          <div id="text-container">
+            <p id='description'>Ancien responsable commercial pendant plus de 2 ans, j'ai décidé de prendre un virage à 360 et d'entreprendre enfin ma carrière de développeur web.<br></br><br></br>Après m'être formé à la Wild Code School pendant 5 mois sur divers projets.<br></br>Je recherche à partir de septembre un stage de 6 mois sur les technos React / NodeJS</p>
             <a href={CV} download='CV-Benoit-DACOSTA'><button className="button button-2">Télécharger mon CV</button></a>
          </div>
          <div className="photo-container">
-             <div className="logo-container">
+             <div className="picture-container">
             <img src={Photo} alt="my-photo" id="photo"/>
             <img src={Croix} alt='croix' className="croix" id='croix-1'/>
             <img src={Croix} alt='croix' className="croix" id='croix-2'/>

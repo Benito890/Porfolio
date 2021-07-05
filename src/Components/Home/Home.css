@@ -1,17 +1,20 @@
 .background-image {
     background-image: url('../../assets/Background-home.jpg');
-    height: 600px;
+    height: 650px;
     width:100%;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top:80px;
+    border-bottom:solid 0.5px rgba(191, 191, 191, 0.2)
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top:100px
 }
 
 #h1-home {
@@ -56,4 +59,23 @@
   .button-2:hover {
     background-position: 100%;
     color: #7A84F3;
+  }
+
+  #logobenito {
+    width: 19%;
+    height: 19%;
+}
+
+  @media screen and (max-width:992px) {
+    #h1-home {
+      font-size: 28px;
+  }
+  }
+
+  @media screen and (max-width:700px) {
+    #logobenito {
+      height: 120px;
+      width:130px;
+      
+    }
   }

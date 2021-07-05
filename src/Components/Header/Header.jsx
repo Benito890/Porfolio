@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
+import logo from '../../assets/logoBenito.png';
 
 function Header () {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,8 +13,6 @@ function Header () {
   useEffect(() => {
     const changeWidth = () => {
       setLargeur(window.innerWidth);
-      console.log(largeur);
-
       if (window.innerWidth > 1024) {
         setToggleMenu(false);
       }
@@ -25,15 +24,19 @@ function Header () {
   }, []);
 
   return (
-      <nav>
+      <nav id="navbar">
         {(toggleMenu || largeur > 992) && (
+          <>
+        <img id="logo" src={logo}></img>
           <ul className="nav-list">
-            <li>À propos</li>
-            <li>Compétences</li>
-            <li>Mes projets</li>
-            <li>Contact</li>
+            <li><a href='#text-container'>À propos</a></li>
+            <li><a href='#section-2'>Compétences</a></li>
+            <li><a href='#title-h2'>Mes projets</a></li>
+            <li><a href='#section-4'>Contact</a></li>
           </ul>
+          </>
         )}
+        <img id="logo2" src={logo}></img>
         <button className="btn" onClick={toggleNavSmallScreen}>
           |||
         </button>
