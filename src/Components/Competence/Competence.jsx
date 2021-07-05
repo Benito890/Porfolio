@@ -50,6 +50,7 @@ export default function Competence () {
                         <span id="span-6">Bootstrap</span>
                     </div>
                 </div>
+                <div id="two-bloc">
                 <div className="bloc" id="bloc-2">
                     <h2>Back-end</h2>
                     <div className="logo-container2">
@@ -71,7 +72,7 @@ export default function Competence () {
                         <span id="span-1">Postman</span>
                     </div>
                 </div>
-                <div className="bloc" id="bloc-2">
+                <div className="bloc" id="bloc-3">
                     <h2>Autres</h2>
                     <div className="logo-container2">
                         <div className="logo-align">
@@ -91,6 +92,7 @@ export default function Competence () {
                         </div>
                         <span id="span-1">VSCode</span>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

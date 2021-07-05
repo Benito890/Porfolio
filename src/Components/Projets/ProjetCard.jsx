@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './ProjetCard.css';
 import 'antd/dist/antd.css';
 import boutonBas from '../../assets/project/bouton-bas.png';
+import { AiFillEye } from 'react-icons/ai';
+import { ImGithub } from 'react-icons/im';
 
 function ProjetCard (props) {
-  const [image, setImage] = useState();
+  const [image, setImage] = useState(props.picture1);
   const [openState, setOpenState] = useState(false);
   const [classDiv, setClassDiv] = useState('closed');
   const [rotateBouton, setRotateBouton] = useState('bouton-bas');
@@ -38,11 +40,14 @@ function ProjetCard (props) {
               <p id="slogan">{props.slogan}</p>
             </div>
             <div id="title-logo">
-              <a href={props.github} >
-                <a className="github-button" data-icon="octicon-eye" data-size="large">Website</a>
+              {props.website
+                ? <a href={props.website} target="_blank" rel="noreferrer">
+                  <button className='button-link'><AiFillEye id='icon-website'/>Website</button>
               </a>
-              <a href={props.website} >
-              <a className="github-button" id="github" data-size="large" aria-label="Follow @ntkme on GitHub">Github</a>
+                : ''
+              }
+              <a href={props.website} target="_blank" rel="noreferrer">
+                  <button className='button-link'><ImGithub id='icon-github'/>Github</button>
               </a>
             </div>
           </div>

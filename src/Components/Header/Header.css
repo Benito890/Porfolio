@@ -1,7 +1,8 @@
 #navbar {
     display: flex;
     width:100%;
-    background-color:#4a4d67;
+    /* background-color:#4a4d67; */
+    background-color:#101113;
     position: fixed;
     z-index: 33;
     height:80px;
@@ -24,10 +25,11 @@ list-style-type: none;
 margin: 0;
 padding-left: 10px;
 font-size: 18px;
+font-weight: 600;
 }
 
 .nav-list li {
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 #logo2 {
@@ -44,13 +46,18 @@ font-size: 18px;
     transform: rotate(90deg);
     font-size: x-large;
     z-index: 999;
-    background-color:#4a4d67;
+    background-color:#121416;
   }
 
 @media screen and (max-width:992px) {
     .nav-list {
         flex-direction: column;
         height: auto;
+        width: 100%;
+        top:70px;
+        position: relative;
+        background-color:#4a4d67;
+
     }
     
     nav {
@@ -70,6 +77,10 @@ font-size: 18px;
       #logo2 {
         display: block;
         left:50px;
+    }
+
+      #logo {
+        display: none;
     }
 
 }
