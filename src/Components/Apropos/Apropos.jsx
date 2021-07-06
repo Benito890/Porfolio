@@ -9,7 +9,7 @@ import Circle2 from '../../assets/Circle2.svg';
 
 function Apropos () {
   return (
-        <div className="propos-container">
+        <div className="propos-container" id="propos">
           <h1 id="section-1">À propos</h1>
           <div id="div-propos">
           <div id="text-container">

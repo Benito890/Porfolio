@@ -1,11 +1,12 @@
+
 const dataProjet = [
 
   {
     title: 'Teamz',
-    picture1: '/assets/project/teamz-1.png',
-    picture2: '/assets/project/teamz-2.jpg',
+    picture1: '/public/myAssets/teamz-1.png',
+    picture2: '../../assets/project/teamz-2.png',
     githubLink: 'https://github.com/Benito890/Teamz-App.git',
-    websiteLink: false,
+    websiteLink: null,
     slogan: 'Réunir la communauté freelancer sur Fiverr',
     description: 'Application réalisée pour le hackaton organisé par Fiverr, projet finaliste présenté devant 500 personnes',
     technos: 'React, Antd, NodeJS, Bootstrap'

@@ -29,9 +29,9 @@ function Header () {
           <>
         <img id="logo" src={logo}></img>
           <ul className="nav-list">
-            <li><a href='#text-container'>À propos</a></li>
+            <li><a href='#propos'>À propos</a></li>
             <li><a href='#section-2'>Compétences</a></li>
-            <li><a href='#title-h2'>Mes projets</a></li>
+            <li><a href='#projet-container'>Mes projets</a></li>
             <li><a href='#section-4'>Contact</a></li>
           </ul>
           </>
