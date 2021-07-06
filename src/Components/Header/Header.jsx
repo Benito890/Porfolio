@@ -27,7 +27,7 @@ function Header () {
       <nav id="navbar">
         {(toggleMenu || largeur > 992) && (
           <>
-        <img id="logo" src={logo}></img>
+        <a href='#home'><img id="logo" src={logo}></img></a>
           <ul className="nav-list">
             <li><a href='#propos'>À propos</a></li>
             <li><a href='#section-2'>Compétences</a></li>

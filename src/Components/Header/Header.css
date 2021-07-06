@@ -2,12 +2,17 @@
     display: flex;
     width:100%;
     /* background-color:#4a4d67; */
-    background-color:#101113;
+    background-color:#4a4d67;
     position: fixed;
     z-index: 33;
     height:80px;
     align-items: center;
     justify-content: center;
+}
+
+#navbar a {
+display: flex;
+align-items: center;
 }
 
 #logo {
@@ -46,7 +51,7 @@ font-weight: 600;
     transform: rotate(90deg);
     font-size: x-large;
     z-index: 999;
-    background-color:#121416;
+    background-color:#4a4d67;
   }
 
 @media screen and (max-width:992px) {
@@ -54,7 +59,7 @@ font-weight: 600;
         flex-direction: column;
         height: auto;
         width: 100%;
-        top:70px;
+        top:55px;
         position: relative;
         background-color:#4a4d67;
 

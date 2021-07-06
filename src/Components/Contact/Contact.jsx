@@ -24,8 +24,8 @@ function Contacte () {
     <div id="section-4" className="background">
       <h1>N'hésitez pas à me contacter</h1>
       <div className="container-contact">
-        <img id="logo-email" src={logo} alt='logo-email'></img>
-        <form className='container-form' onSubmit={sendEmail}>
+        <img data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200" id="logo-email" src={logo} alt='logo-email'></img>
+        <form data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200" className='container-form' onSubmit={sendEmail}>
           <label htmlFor="name">Prénom</label>
           <input name="firstname" required></input>
           <label htmlFor="name">Nom</label>

@@ -3,8 +3,8 @@ const dataProjet = [
 
   {
     title: 'Teamz',
-    picture1: '/public/myAssets/teamz-1.png',
-    picture2: '../../assets/project/teamz-2.png',
+    picture1: '/myAssets/teamz-1.png',
+    picture2: '/myAssets/teamz-2.png',
     githubLink: 'https://github.com/Benito890/Teamz-App.git',
     websiteLink: null,
     slogan: 'Réunir la communauté freelancer sur Fiverr',
@@ -13,8 +13,8 @@ const dataProjet = [
   },
   {
     title: 'Get Inspire',
-    picture1: '/assets/project/get1.png',
-    picture2: '/assets/project/get2.png',
+    picture1: '/myAssets/get1.png',
+    picture2: '/myAssets/get2.png',
     githubLink: 'https://github.com/Benito890/Get-Inspire.git',
     websiteLink: 'https://getinspire.tech/',
     slogan: 'Application de citations inspirantes',
@@ -23,8 +23,8 @@ const dataProjet = [
   },
   {
     title: 'Paris Escape Plan',
-    picture1: '/assets/project/Escape1.png',
-    picture2: '/assets/project/Escape2.png',
+    picture1: '/myAssets/Escape1.png',
+    picture2: '/myAssets/Escape2.png',
     githubLink: 'https://github.com/Benito890/Escape-Plan-Paris',
     websiteLink: 'https://benito890.github.io/Escape-Plan-Paris/',
     slogan: 'Site web proposant les bons plans durant le covid',

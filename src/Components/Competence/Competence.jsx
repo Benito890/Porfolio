@@ -12,15 +12,17 @@ import postman from '../../assets/logos-back/logo-postman.png';
 import git from '../../assets/logos-autres/logo-git.png';
 import jira from '../../assets/logos-autres/logo-jira.png';
 import vscode from '../../assets/logos-autres/logo-vscode.png';
+import AOS from 'aos';
 
 export default function Competence () {
+  AOS.init();
   return (
         <div id="section-2" className="big-container">
             <div id="container-section2">
                 <h1 id="h1-section2">Compétences Techniques</h1>
             </div>
             <div className="moyen-container">
-                <div className="bloc" id="bloc-1">
+                <div data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1200" className="bloc" id="bloc-1">
                     <h2>Front-end</h2>
                     <div className="logo-container">
                         <div className="logo-align">
@@ -51,48 +53,48 @@ export default function Competence () {
                     </div>
                 </div>
                 <div id="two-bloc">
-                <div className="bloc" id="bloc-2">
-                    <h2>Back-end</h2>
-                    <div className="logo-container2">
-                        <div className="logo-align">
-                            <img src={node} id="node"></img>
+                    <div data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1200" className="bloc" id="bloc-2">
+                        <h2>Back-end</h2>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={node} id="node"></img>
+                            </div>
+                            <span id="span-1">NodeJS</span>
                         </div>
-                        <span id="span-1">NodeJS</span>
-                    </div>
-                    <div className="logo-container2">
-                        <div className="logo-align">
-                            <img src={mysql} id="mysql"></img>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={mysql} id="mysql"></img>
+                            </div>
+                            <span id="span-1">MySQL</span>
                         </div>
-                        <span id="span-1">MySQL</span>
-                    </div>
-                    <div className="logo-container2">
-                        <div className="logo-align">
-                            <img src={postman} id="postman"></img>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={postman} id="postman"></img>
+                            </div>
+                            <span id="span-1">Postman</span>
                         </div>
-                        <span id="span-1">Postman</span>
                     </div>
-                </div>
-                <div className="bloc" id="bloc-3">
-                    <h2>Autres</h2>
-                    <div className="logo-container2">
-                        <div className="logo-align">
-                            <img src={git} id="git"></img>
+                    <div data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1200" className="bloc" id="bloc-3">
+                        <h2>Autres</h2>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={git} id="git"></img>
+                            </div>
+                            <span id="span-1">Git / GitHub</span>
                         </div>
-                        <span id="span-1">Git / GitHub</span>
-                    </div>
-                    <div className="logo-container2">
-                        <div className="logo-align">
-                            <img src={jira} id="jira"></img>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={jira} id="jira"></img>
+                            </div>
+                            <span id="span-1">Jira</span>
                         </div>
-                        <span id="span-1">Jira</span>
-                    </div>
-                    <div className="logo-container2">
-                        <div className="logo-align">
-                            <img src={vscode} id="vscode"></img>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={vscode} id="vscode"></img>
+                            </div>
+                            <span id="span-1">VSCode</span>
                         </div>
-                        <span id="span-1">VSCode</span>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

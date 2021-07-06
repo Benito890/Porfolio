@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ProjetCard.css';
 import 'antd/dist/antd.css';
-import boutonBas from '../../assets/project/bouton-bas.png';
+import boutonBas from '../../assets/logos-front/bouton-bas.png';
 import { AiFillEye } from 'react-icons/ai';
 import { ImGithub } from 'react-icons/im';
 
@@ -30,9 +30,9 @@ function ProjetCard (props) {
   }, [openState]);
 
   return (
-    <div id='grande-div'>
+    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1100" id='grande-div'>
       <div id="card-container">
-        <img id="lafleur" src={image} onMouseEnter={() => setImage(props.picture2)} onMouseLeave={() => setImage(props.picture1)}></img>
+        <img id="lafleur" src={process.env.PUBLIC_URL + image} onMouseEnter={() => setImage(props.picture2)} onMouseLeave={() => setImage(props.picture1)}></img>
         <div id="moyenne-div">
           <div className='div-open-close'>
             <div id="entete">
