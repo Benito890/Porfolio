@@ -1,17 +1,17 @@
 import React from 'react';
 import './Competence.css';
-import bootstrap from '../../assets/logos-front/logo-bootstrap.png';
+import typescript from '../../assets/logos-front/logo-typescript.svg';
 import css from '../../assets/logos-front/logo-css1.png';
 import html from '../../assets/logos-front/logo-html.png';
-import js from '../../assets/logos-front/logo-js.png';
+import angular from '../../assets/logos-front/logo-angular.svg';
 import materialui from '../../assets/logos-front/logo-material-ui.png';
 import react from '../../assets/logos-front/logo-react.png';
 import node from '../../assets/logos-back/logo-node1.png';
-import mysql from '../../assets/logos-back/logo-mysql.png';
-import postman from '../../assets/logos-back/logo-postman.png';
-import git from '../../assets/logos-autres/logo-git.png';
+import mysql from '../../assets/logos-autres/logo-mysql.png';
+import nest from '../../assets/logos-back/logo-nest.png';
+import prisma from '../../assets/logos-back/logo-prisma.png';
 import jira from '../../assets/logos-autres/logo-jira.png';
-import vscode from '../../assets/logos-autres/logo-vscode.png';
+import azure from '../../assets/logos-autres/logo-azure.png';
 import AOS from 'aos';
 
 export default function Competence () {
@@ -28,7 +28,7 @@ export default function Competence () {
                         <div className="logo-align">
                             <img src={html} id="html"></img>
                         </div>
-                        <span id="span-1">HTML 5</span>
+                        <span id="span-1">HTML</span>
                     </div>
                     <div className="logo-container">
                         <div className="logo-align">
@@ -37,19 +37,19 @@ export default function Competence () {
                     </div>
                     <div className="logo-container"><div className="logo-align">
                         <img src={css} id="css"></img></div>
-                        <span id="span-3">CSS 3</span>
+                        <span id="span-3">CSS</span>
+                    </div>
+                    <div className="logo-container"><div className="logo-align">
+                        <img src={angular} id="angular"></img></div>
+                        <span id="span-5">Angular</span>
+                    </div>
+                    <div className="logo-container"><div className="logo-align">
+                        <img src={typescript} id="typescript"></img></div>
+                        <span id="span-6">TypeScript</span>
                     </div>
                     <div className="logo-container"><div className="logo-align">
                         <img src={materialui} id="materialui"></img></div>
                         <span id="span-4">Material UI</span>
-                    </div>
-                    <div className="logo-container"><div className="logo-align">
-                        <img src={js} id="js"></img></div>
-                        <span id="span-5">Javascript</span>
-                    </div>
-                    <div className="logo-container"><div className="logo-align">
-                        <img src={bootstrap} id="bootstrap"></img></div>
-                        <span id="span-6">Bootstrap</span>
                     </div>
                 </div>
                 <div id="two-bloc">
@@ -63,36 +63,36 @@ export default function Competence () {
                         </div>
                         <div className="logo-container2">
                             <div className="logo-align">
-                                <img src={mysql} id="mysql"></img>
+                                <img src={nest} id="nest"></img>
                             </div>
-                            <span id="span-1">MySQL</span>
+                            <span id="span-1">NestJS</span>
                         </div>
                         <div className="logo-container2">
                             <div className="logo-align">
-                                <img src={postman} id="postman"></img>
+                                <img src={prisma} id="prisma"></img>
                             </div>
-                            <span id="span-1">Postman</span>
+                            <span id="span-1">Prisma</span>
                         </div>
                     </div>
                     <div data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1200" className="bloc" id="bloc-3">
                         <h2>Autres</h2>
                         <div className="logo-container2">
                             <div className="logo-align">
-                                <img src={git} id="git"></img>
+                                <img src={mysql} id="mysql"></img>
                             </div>
-                            <span id="span-1">Git / GitHub</span>
+                            <span id="span-1">MySQL</span>
+                        </div>
+                        <div className="logo-container2">
+                            <div className="logo-align">
+                                <img src={azure} id="azure"></img>
+                            </div>
+                            <span id="span-1">Azure</span>
                         </div>
                         <div className="logo-container2">
                             <div className="logo-align">
                                 <img src={jira} id="jira"></img>
                             </div>
                             <span id="span-1">Jira</span>
-                        </div>
-                        <div className="logo-container2">
-                            <div className="logo-align">
-                                <img src={vscode} id="vscode"></img>
-                            </div>
-                            <span id="span-1">VSCode</span>
                         </div>
                     </div>
                 </div>

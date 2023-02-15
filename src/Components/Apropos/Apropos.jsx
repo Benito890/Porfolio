@@ -13,8 +13,9 @@ function Apropos () {
           <h1 id="section-1">À propos</h1>
           <div id="div-propos">
           <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200" id="text-container">
-            <p id='description'>Ancien responsable commercial pendant plus de 2 ans, j'ai décidé de prendre un virage à 360 et d'entreprendre enfin ma carrière de développeur web.<br></br><br></br>Après m'être formé à la Wild Code School pendant 5 mois sur divers projets.<br></br>Je recherche à partir de septembre un stage de 6 mois sur les technos React / NodeJS</p>
-            <a href={CV} download='CV-Benoit-DACOSTA'><button className="button button-2">Télécharger mon CV</button></a>
+            <p id='description'>Passionné et polyvalent, j'évolue depuis plus de 2 ans sur les frameworks Javascript back-end et front-end en quête de nouveaux challenges.<br></br><br></br>
+                Ma rigueur, mon pragmatisme et ma détermination seront de réels atout pour votre équipe.</p>
+              <a href={CV} download='CV-Benoit-DACOSTA' className="button button-2">Télécharger mon CV</a>
          </div>
          <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200" className="photo-container">
              <div id="pic-container">

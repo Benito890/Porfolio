@@ -1,5 +1,5 @@
 .big-container {
-    padding:40px 0px 80px 0px;
+    padding:40px 0 80px 0;
     width:100%;
     background-color:#111214;
     border-bottom: solid 0.5px rgba(191, 191, 191, 0.1)
@@ -19,7 +19,7 @@
     height:400px;
     display: flex;
     flex-wrap: wrap;
-    margin:20px 25px 0px 25px
+    margin:20px 25px 0 25px
 }
 
 #two-bloc {
@@ -64,7 +64,7 @@ span {
     text-align: center;
     width:100%;
     height:30px;
-    margin:0;   
+    margin:0;
     padding-top:20px;
     color: white;
 }
@@ -111,8 +111,23 @@ span {
     width: 43px;
 }
 
-#bootstrap {
-    height: 57px;
+#typescript {
+    height: 46px;
+    width: 58px
+}
+
+#prisma {
+    height: 46px;
+    width: 51px
+}
+
+#nest {
+    height: 46px;
+    width: 46px
+}
+
+#angular {
+    height: 46px;
     width: 58px
 }
 
@@ -126,19 +141,9 @@ span {
     width: 50px;
 }
 
-#postman {
+#jira, #azure {
     height: 50px;
     width: 50px;
-}
-
-#git, #jira {
-    height: 50px;
-    width: 50px;
-}
-
-#vscode {
-    height: 41px;
-    width: 41px;
 }
 
 #h1-section2 {
